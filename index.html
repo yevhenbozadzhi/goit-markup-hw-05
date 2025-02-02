@@ -400,62 +400,6 @@
             </div>
         </section>
     </main>
-    <!-- modal window -->
-    <div class="overlay-modal is-open">
-        <div class="modal">
-            <button type="button" class="btn-modal">
-                <svg class="modal-icon" width="8" height="8">
-                    <use class="modal-iconeclose" href="./images/icons.svg#icon-close"></use>
-                </svg>
-            </button>
-            <p class="modal-text">
-                Leave your contacts and we will call you back
-            </p>
-            <form class="modal-form">
-                <label class="label-input">Name</label>
-                <div class="iconname-wrap">
-                    <input class="input-modal" type="text" name="name">
-                    <svg class="icon-modalname" width="12" height="12">
-                        <use class="use-modalname" href="./images/icons.svg#icon-person"></use>
-                    </svg>
-                </div>
-                <label class="label-input">Phone</label>
-                <div class="iconphone-wrap">
-                    <input class="input-modal" type="number" name="phone">
-                    <svg class="icon-modalphone" width="12" height="12">
-                        <use class="use-modalphone" href="./images/icons.svg#icon-tel"></use>
-                    </svg>
-                </div>
-
-                <label class="label-input">Email</label>
-                <div class="iconmail-wrap">
-                    <input class="input-modal" type="text" name="email">
-                    <svg class="icon-modalemail" width="12" height="12">
-                        <use class="use-modalemail" href="./images/icons.svg#icon-email"></use>
-                    </svg>
-                </div>
-                <label class="label-input">Comment</label>
-                <textarea class="text-area" placeholder="Text input"></textarea>
-                <div class="checkpolicy-modal">
-                    <input value="true" class="check-modal visually-hidden" type="checkbox" name="check-policy"
-                        id="policy">
-                    <label class="check-policy" for="policy">
-                        <span class="span-modal">
-                            <svg class="icon-modal-check" width="10" height="8">
-                                <use class="icon-check" href="./images/icons.svg#icon-check"></use>
-                            </svg>
-                        </span>I accept the terms and conditions of
-                        the <a class="link-policy" href="">Privacy
-                            Policy</a></label>
-                </div>
-                <div class="bottom-btn-modal">
-                    <button type="submit" class="btn-undermodal">Send
-                    </button>
-                </div>
-            </form>
-        </div>
-    </div>
-    <!--  -->
 
 
     <footer class="footer">
@@ -529,6 +473,63 @@
 
         </div>
     </footer>
+    <!-- modal window -->
+    <div class="overlay-modal">
+        <div class="modal">
+            <button type="button" class="btn-modal">
+                <svg class="modal-icon" width="8" height="8">
+                    <use class="modal-iconeclose" href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <p class="modal-text">
+                Leave your contacts and we will call you back
+            </p>
+
+            <form class="modal-form">
+                <div class="iconname-wrap">
+                    <label class="label-input">Name</label>
+                    <input class="input-modal" type="text" name="name">
+                    <svg class="icon-modalname" width="12" height="12">
+                        <use class="use-modalname" href="./images/icons.svg#icon-person"></use>
+                    </svg>
+                </div>
+                <div class="iconphone-wrap"></div>
+                <label class="label-input">Phone</label>
+
+                <input class="input-modal" type="number" name="phone">
+                <svg class="icon-modalphone" width="12" height="12">
+                    <use class="use-modalphone" href="./images/icons.svg#icon-tel"></use>
+                </svg>
+        </div>
+        <div class="iconmail-wrap">
+            <label class="label-input">Email</label>
+
+            <input class="input-modal" type="text" name="email">
+            <svg class="icon-modalemail" width="12" height="12">
+                <use class="use-modalemail" href="./images/icons.svg#icon-email"></use>
+            </svg>
+        </div>
+        <label class="label-input">Comment</label>
+        <textarea class="text-area" placeholder="Text input"></textarea>
+        <div class="checkpolicy-modal">
+            <input value="true" class="check-modal visually-hidden" type="checkbox" name="check-policy" id="policy">
+            <label class="check-policy" for="policy">
+                <span class="span-modal">
+                    <svg class="icon-modal-check" width="10" height="8">
+                        <use class="icon-check" href="./images/icons.svg#icon-check"></use>
+                    </svg>
+                </span>I accept the terms and conditions of
+                the <a class="link-policy" href="">Privacy
+                    Policy</a></label>
+        </div>
+        <div class="bottom-btn-modal">
+            <button type="submit" class="btn-undermodal">Send
+            </button>
+        </div>
+        </form>
+    </div>
+    </div>
+    <!--  -->
 </body>
 
 </html>
