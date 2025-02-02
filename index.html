@@ -401,7 +401,7 @@
         </section>
     </main>
     <!-- modal window -->
-    <div class="overlay-modal">
+    <div class="overlay-modal is-open">
         <div class="modal">
             <button type="button" class="btn-modal">
                 <svg class="modal-icon" width="8" height="8">
@@ -419,7 +419,6 @@
                         <use class="use-modalname" href="./images/icons.svg#icon-person"></use>
                     </svg>
                 </div>
-
                 <label class="label-input">Phone</label>
                 <div class="iconphone-wrap">
                     <input class="input-modal" type="number" name="phone">
@@ -438,8 +437,14 @@
                 <label class="label-input">Comment</label>
                 <textarea class="text-area" placeholder="Text input"></textarea>
                 <div class="checkpolicy-modal">
-                    <input value="true" class="check-modal" type="checkbox" name="check-policy" id="policy">
-                    <label class="check-policy" for="policy">I accept the terms and conditions of
+                    <input value="true" class="check-modal visually-hidden" type="checkbox" name="check-policy"
+                        id="policy">
+                    <label class="check-policy" for="policy">
+                        <span class="span-modal">
+                            <svg class="icon-modal-check" width="10" height="8">
+                                <use class="icon-check" href="./images/icons.svg#icon-check"></use>
+                            </svg>
+                        </span>I accept the terms and conditions of
                         the <a class="link-policy" href="">Privacy
                             Policy</a></label>
                 </div>
@@ -503,6 +508,25 @@
 
                 </ul>
             </div>
+            <!-- footer modal -->
+            <div class="footer-modal">
+                <div class="footer-second">
+                    <p class="footer-modaltext">Subscribe</p>
+                </div>
+                <div class="footer-input">
+                    <form class="footer-form">
+                        <label aria-label="footer-email" class="footer-label-email">
+                            <input type="email" class="footer-email" placeholder="E-mail">
+                        </label>
+                        <button type="submit" class="footer-modalbtn">Subscribe</button>
+                        <svg class="footer-iconsend" width="24" height="20">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </form>
+                </div>
+            </div>
+
+
         </div>
     </footer>
 </body>
