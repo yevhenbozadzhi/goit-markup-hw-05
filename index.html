@@ -435,13 +435,14 @@
                         <use class="use-modalemail" href="./images/icons.svg#icon-email"></use>
                     </svg>
                 </div>
-
                 <label class="label-input">Comment</label>
                 <textarea class="text-area" placeholder="Text input"></textarea>
-                <p class="policy">
-                    I accept the terms and conditions of the <a class="link-policy" href="">Privacy Policy</a>
-                </p>
-
+                <div class="checkpolicy-modal">
+                    <input value="true" class="check-modal" type="checkbox" name="check-policy" id="policy">
+                    <label class="check-policy" for="policy">I accept the terms and conditions of
+                        the <a class="link-policy" href="">Privacy
+                            Policy</a></label>
+                </div>
                 <div class="bottom-btn-modal">
                     <button type="submit" class="btn-undermodal">Send
                     </button>
@@ -449,7 +450,7 @@
             </form>
         </div>
     </div>
-
+    <!--  -->
 
 
     <footer class="footer">
