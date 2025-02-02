@@ -487,34 +487,39 @@
 
             <form class="modal-form">
                 <div class="iconname-wrap">
-                    <label class="label-input">Name</label>
+                    <label class="label-input">Name
+                        <div class="class-for-input">
+                            <input id="user-name" class="input-modal" type="text" name="user-name">
+                            <svg class="icon-modalname" width="12" height="12">
+                                <use class="use-modalname" href="./images/icons.svg#icon-person"></use>
+                            </svg>
+                        </div>
+                    </label>
                 </div>
-                <div class="class-for-input">
-                    <input id="user-name" class="input-modal" type="text" name="user-name">
-                    <svg class="icon-modalname" width="12" height="12">
-                        <use class="use-modalname" href="./images/icons.svg#icon-person"></use>
-                    </svg>
-                </div>
+
 
                 <div class="iconphone-wrap">
                     <label class="label-input">Phone</label>
-                </div>
-                <div class="class-for-input">
+                    <div class="class-for-input">
 
-                    <input class="input-modal" type="number" name="phone">
-                    <svg class="icon-modalphone" width="12" height="12">
-                        <use class="use-modalphone" href="./images/icons.svg#icon-tel"></use>
-                    </svg>
+                        <input class="input-modal" type="number" name="phone">
+                        <svg class="icon-modalphone" width="12" height="12">
+                            <use class="use-modalphone" href="./images/icons.svg#icon-tel"></use>
+                        </svg>
+                    </div>
                 </div>
+
                 <div class="iconmail-wrap">
-                    <label class="label-input">Email</label>
+                    <label class="label-input">Email
+                        <div class="class-for-input">
+                            <input class="input-modal" type="text" name="email">
+                            <svg class="icon-modalemail" width="12" height="12">
+                                <use class="use-modalemail" href="./images/icons.svg#icon-email"></use>
+                            </svg>
+                        </div>
+                    </label>
                 </div>
-                <div class="class-for-input">
-                    <input class="input-modal" type="text" name="email">
-                    <svg class="icon-modalemail" width="12" height="12">
-                        <use class="use-modalemail" href="./images/icons.svg#icon-email"></use>
-                    </svg>
-                </div>
+
                 <textarea class="text-area" placeholder="Text input"></textarea>
                 <div class="checkpolicy-modal">
                     <input value="true" class="check-modal visually-hidden" type="checkbox" name="check-policy"
