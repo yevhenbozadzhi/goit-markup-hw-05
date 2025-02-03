@@ -627,6 +627,7 @@ border-radius: 2px;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    display: inline-flex;
 }
 .check-modal:checked + .check-policy .span-modal{
     background-color: #404bbf;
