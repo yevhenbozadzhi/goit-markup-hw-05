@@ -676,7 +676,6 @@ border-radius: 2px;
         width: 264px;
         height: 40px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        margin-top: 16px;
 }
 .footer-modaltext{
     font-weight: 500;
@@ -684,6 +683,7 @@ border-radius: 2px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #fff;
+        margin-bottom: 16px;
 }
 .footer-modal{
     display: block;
@@ -691,9 +691,12 @@ border-radius: 2px;
     margin-left: 80px;
 }
 .footer-modalbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 4px;
         padding: 8px 24px;
-        width: 165px;
+       min-width: 165px;
         height: 40px;
         background-color: #4d5ae5;
         border: none;
@@ -717,4 +720,10 @@ border-radius: 2px;
 .footer-iconsend{
     fill: #fff;
     position: absolute;
+    margin-left: 16px;
+}
+.footer-form{
+    display: flex;
+    gap: 24px;
+    justify-content: baseline;
 }
