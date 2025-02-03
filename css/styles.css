@@ -481,11 +481,13 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
  .btn-modal:hover,
- .btn-modal:focus,
- .modal-iconeclose:hover,
- .modal-iconeclose:focus{
+ .btn-modal:focus{
 background-color: #404bbf;
 border: none;
+fill: #ffffff;
+ }
+.modal-iconeclose:hover,
+.modal-iconeclose:focus{
 fill: #ffffff;
 }
  .modal-icon{
@@ -649,10 +651,10 @@ border-radius: 2px;
     display: inline-flex;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.check-modal:checked + .check-policy .span-modal{
+.check-modal:checked + .modal-policylabel .span-modal {
     background-color: #404bbf;
     border: none;
-    fill: #fff;
+    fill: #f4f4fd;
 }
 .is-open{
     visibility: hidden;
