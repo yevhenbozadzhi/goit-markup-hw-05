@@ -653,7 +653,6 @@ border-radius: 2px;
   
 }
 .modal-policylabel{
-    display: flex;
     font-size: 12px;
         line-height: 1.16667;
         letter-spacing: 0.04em;
