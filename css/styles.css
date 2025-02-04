@@ -652,15 +652,13 @@ border-radius: 2px;
     margin-bottom: 24px;    
   
 }
-.textlabel-accept{
-        font-size: 12px;
+.modal-policylabel{
+    display: flex;
+    font-size: 12px;
         line-height: 1.16667;
         letter-spacing: 0.04em;
         color: #8e8f99;
         margin-left: 8px;
-}
-.modal-policylabel{
-    display: flex;
 }
 /* footer-modal */
 .footer-email{
