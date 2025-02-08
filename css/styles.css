@@ -694,8 +694,8 @@ border-radius: 2px;
         height: 40px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
-.input::placeholder{
-    color: #ffffff;
+.footer-email::placeholder{
+color: #fff;
 }
 .footer-modaltext{
     font-weight: 500;
@@ -738,7 +738,6 @@ border-radius: 2px;
 }
 .footer-iconsend{
     fill: #fff;
-    position: absolute;
     top: 10px;
     right: 24px;
     margin-left: 16px;
